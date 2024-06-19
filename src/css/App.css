@@ -1,0 +1,65 @@
+:root {
+  --fs-base:1rem;
+  --fs-big:1.2rem;
+  --fs-small: 0.9rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+ padding: 10px;
+ font-size: 1.5rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+nav .link {
+  color: rgb(142, 110, 110);
+  text-decoration: none;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.farm-icon {
+  width: 300px;
+  height: 300px;
+  border-radius: 80px 150px;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: var(--fs-small);
+}
+
+button:hover {
+  filter: brightness(0.9);
+}
+
+p {
+  font-size: var(--fs-base);
+  margin: 0;
+}
+
+@media (max-width: 800px) {
+  :root {
+      --fs-base: 1.1rem;
+      --fs-bigger: 1.2rem;
+      --fs-small: 1rem;
+  }
+
+}
+
+
