@@ -2,6 +2,18 @@
   --fs-base:1rem;
   --fs-big:1.2rem;
   --fs-small: 0.9rem;
+
+  --color-beige: #F9F4E2;
+
+
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .container {
@@ -15,22 +27,31 @@ nav {
  padding: 10px;
  font-size: 1.5rem;
  display: flex;
+ flex-direction: column;
  justify-content: center;
  align-items: center;
 }
 
+nav .link-container {
+  padding: 1rem;
+}
+
 nav .link {
-  color: rgb(142, 110, 110);
+color: black;
   text-decoration: none;
   margin: 10px;
   font-weight: bold;
 }
 
 .farm-icon {
-  width: 300px;
-  height: 300px;
-  border-radius: 80px 150px;
+  width: 250px;
+  height: 250px;
+  border-radius: 150px;
 }
+/* 
+.farm-icon:hover {
+transform: scale(1.05);
+} */
 
 h1 {
   text-align: center;

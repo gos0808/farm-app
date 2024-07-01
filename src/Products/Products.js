@@ -1,5 +1,5 @@
 import { productsData } from "./ProductsData";
-import './css/Products.css';
+import '../css/Products.css';
 import { Sidebar } from './Sidebar';
 import { useState } from 'react';
 
@@ -17,7 +17,6 @@ export const Products = () => {
     };
 
     const seasonFilter = (season) => {
-        // console.log(season);
         if (season === 'All months') {
             setFood(productsData);
         } else {
@@ -32,10 +31,11 @@ export const Products = () => {
         <div>
             <h1 className="container">Products guide</h1>
             <div className="products">
-                <div className="sidebar">
+                <aside>
                     <Sidebar categoryFilter={categoryFilter} seasonFilter={seasonFilter} />
-                </div>
-                <div className="product">
+                </aside>
+
+                <main className="product">
                     {food.map((element, index) => {
                         const { name, price, newPrice, weight, img, season } = element;
                         return (
@@ -52,7 +52,7 @@ export const Products = () => {
 
                         );
                     })}
-                </div>
+                </main>
             </div>
         </div>);
 };;
