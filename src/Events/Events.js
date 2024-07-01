@@ -4,7 +4,7 @@ import { NewSliders } from './NewSliders.js';
 import '../css/Events.css';
 
 export const Events = () => {
-    const [events, setEvents] = useState(EventsData);
+    const [events] = useState(EventsData);
 
     return (
         <div className='container'>
