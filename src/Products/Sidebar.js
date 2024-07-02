@@ -22,22 +22,24 @@ export const Sidebar = ({ categoryFilter, seasonFilter }) => {
                     <button onClick={() => categoryFilter('Mushrooms')}>Mushrooms</button>
                 </div>
 
-                <p className="dropdown-label">Harvested in:</p>
-                <FormControl>
-                    <Select
-                        className="select" defaultValue="All months" onChange={(e) => seasonFilter(e.target.value)}>
-                        <MenuItem
-                            value='All months'>All months</MenuItem>
-                        <MenuItem value='April'>April</MenuItem>
-                        <MenuItem value='May'>May</MenuItem>
-                        <MenuItem value='June'>June</MenuItem>
-                        <MenuItem value='July'>July</MenuItem>
-                        <MenuItem value='August'>August</MenuItem>
-                        <MenuItem value='September'>September</MenuItem>
-                        <MenuItem value='October'>October</MenuItem>
-                        <MenuItem value='November'>November</MenuItem>
-                    </Select>
-                </FormControl>
+                <div className='dropdown'>
+                    <p className="dropdown-label">Harvested in:</p>
+                    <FormControl>
+                        <Select
+                            className="select" defaultValue="All months" onChange={(e) => seasonFilter(e.target.value)}>
+                            <MenuItem
+                                value='All months'>All months</MenuItem>
+                            <MenuItem value='April'>April</MenuItem>
+                            <MenuItem value='May'>May</MenuItem>
+                            <MenuItem value='June'>June</MenuItem>
+                            <MenuItem value='July'>July</MenuItem>
+                            <MenuItem value='August'>August</MenuItem>
+                            <MenuItem value='September'>September</MenuItem>
+                            <MenuItem value='October'>October</MenuItem>
+                            <MenuItem value='November'>November</MenuItem>
+                        </Select>
+                    </FormControl>
+                </div>
 
                 <div className="references">
                     <div>
