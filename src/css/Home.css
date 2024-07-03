@@ -1,7 +1,6 @@
 .farm-container {
     display: flex;
-    height: 400px;
-    /* margin: 1rem; */
+    height: 500px;
 }
 
 .farm-image {
@@ -10,18 +9,17 @@
 }
 
 .farm-text {
-    /* background-color: #456778; */
     background-color:  #99b6c4;
     color: white;
     text-align: left;
     padding: 1rem;
     font-family: var(--ff-title);
-    line-height: 1.9rem;
+    line-height: 1.7rem;
     overflow-wrap: break-word;
 }
 
 .farm-text p{
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 @media (max-width: 800px) {
