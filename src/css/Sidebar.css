@@ -1,7 +1,8 @@
 .filter {
-    border-radius: 10px;
+    /* border-radius: 20px; */
     margin: 0 1rem;
     min-width: 20rem;
+    /* border: 1px solid black; */
 }
 
 .category-filter {
@@ -11,13 +12,13 @@
 }
 
 .category-filter button {
-    background-color: transparent;
-    border: solid 1px rgb(142, 110, 110) ;
+    /* background-color: transparent;
+    border: solid 1px var(--color-brown) ; */
     margin: 0.3rem 0.3rem 0 0;
 }
 
 .category-filter button:hover {
-    color: rgb(142, 110, 110);
+    color: var(--color-brown);
 }
 
 .dropdown {
@@ -30,14 +31,30 @@
 
 .dropdown-label {
     font-size: var(--fs-base);
+    font-family: var(--ff-title);
 }
 
 .select {
-min-width: 10rem;
+min-width: 11.5rem;
 height: 2rem;
 margin: 0.5rem;
 border-radius: 20px;
 text-align: left;
+}
+
+.MuiOutlinedInput-root {
+    font-size: var(--fs-smaller) !important;
+    color: var(--color-grey-dark) !important;
+}
+
+.MuiMenuItem-root {
+    font-size: var(--fs-smaller) !important;
+    color: var(--color-grey-dark) !important;
+}
+
+
+.MuiOutlinedInput-notchedOutline {
+border:var(--color-brown) 1px solid !important;
 }
 
 .references {
@@ -45,7 +62,7 @@ text-align: left;
     /* margin-: 2rem; */
     /* background-image: url('https://images.unsplash.com/photo-1639690222445-595b0794bbd4?q=80&w=2187&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); */
     /* background-size: cover; */
-    color: black;
+    /* color: black; */
     /* border-radius: 10px; */
     font-size: var(--fs-big);
     text-align: left;
@@ -53,10 +70,11 @@ text-align: left;
 
 .references p {
     margin: 0;
+    font-family: var(--ff-title);
 }
 
 .references button {
-    background-color: #D6DEEE;
+    /* background-color: #D6DEEE; */
     margin: 1rem 0;
 }
 

@@ -1,6 +1,7 @@
 import '../css/Sidebar.css';
 import { FormControl, Select, MenuItem } from '@mui/material';
 
+
 export const Sidebar = ({ categoryFilter, seasonFilter }) => {
     const redirectToReciepesApp = () => {
         window.open('https://recipes-hunt.netlify.app/');
@@ -50,7 +51,7 @@ export const Sidebar = ({ categoryFilter, seasonFilter }) => {
                         <p>Stay informed about nutritions</p>
                         <button
                             onClick={redirectToNutritionApp}>
-                            Nutrition Analysis
+                            Nutrition analysis
                         </button>
                     </div>
                 </div>

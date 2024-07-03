@@ -29,7 +29,7 @@ export const Products = () => {
 
     return (
         <div>
-            <h1 className="container">Products guide</h1>
+            {/* <h1 className="container">Products guide</h1> */}
             <div className="products">
                 <aside>
                     <Sidebar categoryFilter={categoryFilter} seasonFilter={seasonFilter} />

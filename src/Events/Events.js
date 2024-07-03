@@ -8,7 +8,7 @@ export const Events = () => {
 
     return (
         <div className='container'>
-            <h1>About events</h1>
+            {/* <h1>About events</h1> */}
             <div className='events'>
                 {events.map((event) => {
                     const { id, name, description, image, season } = event;
