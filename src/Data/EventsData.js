@@ -37,12 +37,10 @@ export const EventsData = [
         description: 'Celebrate the holiday season with a magical Christmas Dinner at Countryside Farm! Enjoy a festive feast with all the trimmings, surrounded by twinkling lights and cozy farm charm. Join us for an unforgettable evening of delicious food, holiday cheer, and heartwarming memories.',
         season: 'December 22-24',
         image: [
-            'https://images.unsplash.com/photo-1513861810402-53342bf5bd13?q=80&w=2187&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            'https://images.unsplash.com/photo-1481930916222-5ec4696fc0f2?q=80&w=2193&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-            'https://images.unsplash.com/photo-1577308856961-8e9ec50d0c67?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
 
-
-
+            'https://images.unsplash.com/photo-1577308856961-8e9ec50d0c67?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+            'https://images.unsplash.com/photo-1638431510387-6229fb127494?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+            'https://images.unsplash.com/photo-1513427123250-82a01b806f1b?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
         ]
     },
     {
@@ -51,7 +49,7 @@ export const EventsData = [
         description: 'Celebrate Easter at Countryside Farm! Enjoy a day filled with egg hunts, springtime crafts, and family fun amidst the beautiful rural scenery. Experience the joy of the season with delicious treats, adorable animals, and memorable activities for all ages. Hop on over and join us for an unforgettable Easter celebration!',
         season: 'March 29 - April 7',
         image: [
-            'https://plus.unsplash.com/premium_photo-1677619372025-af8a08150e44?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+            'https://images.unsplash.com/photo-1586738730873-bdd59a596a2d?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
             'https://images.unsplash.com/photo-1701118348053-6f85dae20f36?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
             'https://images.unsplash.com/photo-1457301353672-324d6d14f471?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
         ]

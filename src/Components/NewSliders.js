@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { faCircleArrowLeft, faCircleArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import '../css/EventDetails.css';
 
 export const NewSliders = ({ images, name }) => {
 
@@ -27,19 +28,20 @@ export const NewSliders = ({ images, name }) => {
     };
 
     return (
-        <div className='image-container'>
-            <img
-                src={images[index]}
-                alt={name} />
-            <button className='arrow-btn arrow-btn-left'
-                onClick={previos}>
-                <FontAwesomeIcon icon={faCircleArrowLeft} />
-            </button>
-            <button
-                className='arrow-btn arrow-btn-right'
-                onClick={next}>
-                <FontAwesomeIcon icon={faCircleArrowRight} />
-            </button>
-        </div>
-    );
+        <div className="slider">
+
+            {/* // <div className="slider" key={id}> */}
+            <img className='farm-image' src={images[index]} alt={name} />
+            {images.length > 1 && (
+                <>
+                    <button className="arrow-btn arrow-btn-left" onClick={previos}>
+                        <FontAwesomeIcon icon={faCircleArrowLeft} />
+                    </button>
+                    <button className="arrow-btn arrow-btn-right" onClick={next}>
+                        <FontAwesomeIcon icon={faCircleArrowRight} />
+                    </button>
+                </>
+            )}
+        </div>);
+
 };

@@ -1,5 +1,33 @@
 .about-container {
-    /* background-color: #f0efeb; */
-    /* height: 100vh; */
     text-align: left;
+}
+
+.about-info {
+    display: block;
+    padding: 1rem;
+}
+
+.about-info h1 {
+    font-family: var(--ff-title);
+    font-size: var(--fs-bigger);
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-weight: 300;
+}
+
+.iframe {
+    border-radius: 20px 0 0 20px;
+}
+
+@media (max-width: 800px) {
+    .about-container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .iframe {
+        width: 100%;
+        border-radius: 20px;
+    }
 }

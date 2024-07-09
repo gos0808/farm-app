@@ -1,11 +1,24 @@
-import { productsData } from "./ProductsData";
+import { productsData } from "../Data/ProductsData";
 import '../css/Products.css';
-import { Sidebar } from './Sidebar';
-import { useState } from 'react';
+import '../css/App.css';
+import { Sidebar } from '../Components/Sidebar';
+import { useState, useEffect } from 'react';
+import LoaderPage from './Loader-page';
 
 export const Products = () => {
 
     const [food, setFood] = useState(productsData);
+    const [stateLoader, setStateLoader] = useState(true);
+
+    useEffect(() => {
+        setTimeout(() => {
+            setStateLoader(false);
+        }, 1000);
+    }, []);
+
+    if (stateLoader) {
+        return <LoaderPage />;
+    }
 
     const categoryFilter = (filterParam) => {
         if (filterParam === 'All') {
@@ -23,13 +36,13 @@ export const Products = () => {
             const newSeason = productsData.filter(product => product.season.includes(season));
             setFood(newSeason);
         }
+
     };
 
 
 
     return (
         <div>
-            {/* <h1 className="container">Products guide</h1> */}
             <div className="products">
                 <aside>
                     <Sidebar categoryFilter={categoryFilter} seasonFilter={seasonFilter} />
@@ -40,7 +53,7 @@ export const Products = () => {
                         const { name, price, newPrice, weight, img, season } = element;
                         return (
                             <div className="product-card" key={index}>
-                                <div className="image-container">                            <img src={img} alt={name} /></div>
+                                <div className={'image-container product-image'}>                            <img src={img} alt={name} /></div>
                                 <h2>{name}</h2>
                                 <div className="price">
                                     <p className={newPrice ? "new-price" : 'original-price'}>{newPrice ? `$${newPrice}` : null}</p>

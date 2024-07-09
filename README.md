@@ -1,3 +1,56 @@
+# About the Blue Sky Farm App
+
+## Description
+
+The Blue Sky Farm App is a user-friendly web application designed to provide comprehensive information about our farm, products, and seasonal events.
+
+## Key Features
+
+- **Explore Our Farm**: Learn more about Blue Sky Farm.
+- **Product Showcase**: Browse through our diverse range of farm-fresh products, including vegetables, fruits, berries, mushrooms, and greens.
+- **Seasonal Offerings**: Discover what’s in season at Blue Sky Farm with detailed updates on product availability and harvest times.
+- **Visit us**: Use the Directions feature to get accurate directions to Blue Sky Farm from your current location. Simply use the map in the section About us.
+- **Recipe Inspiration**: Find delicious recipes using our farm-fresh products.
+- **Nutrition Analysis**: Review nutritional information for various farm products to make informed dietary choices.
+
+# Built With:
+
+<div >
+  <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
+</div>
+
+# Usage:
+
+- **Exploring the Farm**:
+  Navigate through different sections using the menu.
+  Read about our farm’s story on the Our Farm page.
+
+- **Viewing Products**:
+  Browse the Products section to see our offerings.
+  View description about seasonal availability and pricing.
+  Use the Food Type and Season filters to narrow down your selection and find products that match your preferences.
+
+- **Finding Directions**:
+  Use the map to get accurate direction to Blue Sky Farm.
+
+- **Event Updates**:
+  View the event section on the farm section to discover upcoming farm events. Click on the event card to access detailed information, including description and season.
+
+- **Exploring Recipes**:
+  Visit the Recipes app to find culinary inspiration using our farm-fresh ingredients. Click the find recipes button on the Product section to view cooking instructions.
+
+- **Checking Nutrition**:
+  Visit the Nutrition analysis app to access detailed nutritional information for the product that you're reviewing. Learn about calories, vitamins, and minerals to support your dietary needs. Click the nutrition analysis button on the Product section to view cooking instructions.
+
+# Contact
+
+Olga: gos08.08.23@gmail.com
+
+Project link: \
+https://github.com/gos0808/farm-app \
+https://blue-sky-fam.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

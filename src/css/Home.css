@@ -1,32 +1,32 @@
-.farm-container {
+.home-container {
     display: flex;
-    height: 500px;
+    flex-direction: column;
 }
 
-.farm-image {
-    min-width: 70%;
-    object-fit: cover;
+.events {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ gap: 2rem;
 }
 
-.farm-text {
-    background-color:  #99b6c4;
-    color: white;
-    text-align: left;
-    padding: 1rem;
+.event-image {
+  height: 200px;
+}
+
+.event-name {
     font-family: var(--ff-title);
-    line-height: 1.7rem;
-    overflow-wrap: break-word;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
 }
 
-.farm-text p{
-    margin-bottom: 1.5rem;
-}
+  /* @media (max-width: 800px) {
+    .events {
+      min-width: 90%;
+    }
 
-@media (max-width: 800px) {
-
-    .farm-container {
-        display: flex;
-        flex-direction: column;
-        flex: 1;
+      .event-image {
+        min-width: 90%;
       }
-  }
+  }  */

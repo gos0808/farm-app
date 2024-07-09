@@ -17,8 +17,12 @@
     margin: 0.3rem 0.3rem 0 0;
 }
 
-.category-filter button:hover {
-    color: var(--color-brown);
+.category-filter button:hover,
+.references button:hover,
+.dropdown:hover
+{
+    /* color: var(--color-brown); */
+    filter: brightness(1.5);
 }
 
 .dropdown {
