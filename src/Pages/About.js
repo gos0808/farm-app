@@ -13,9 +13,9 @@ export const About = () => {
                 aria-hidden="false"
                 tabIndex="0"
                 disabledefaultui='true'
-                src="https://www.google.com/maps/embed/v1/place?&zoom=6
-    &q=52°01'31.5N 106°32'25.0 W">
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d9917172.336624151!2d-116.93932718827365!3d52.02540559254898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTLCsDAxJzMxLjUiTiAxMDbCsDMyJzI1LjAiVw!5e0!3m2!1sen!2sca!4v1720557559550!5m2!1sen!2sca">
             </iframe>
+
             <div className={'about-info'}>
                 <h1>Hours of operation</h1>
                 <p>Monday - Friday: 9:00 am - 5:00 pm</p>
