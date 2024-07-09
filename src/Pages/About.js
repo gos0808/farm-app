@@ -13,7 +13,7 @@ export const About = () => {
                 aria-hidden="false"
                 tabIndex="0"
                 disabledefaultui='true'
-                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDJE56CAKXpq_7YIAhNigzOqoZDvVUTXfk&zoom=6
+                src="https://www.google.com/maps/embed/v1/place?&zoom=6
     &q=52°01'31.5N 106°32'25.0 W">
             </iframe>
             <div className={'about-info'}>
