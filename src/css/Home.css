@@ -7,7 +7,7 @@
  display: flex;
  flex-wrap: wrap;
  justify-content: center;
- gap: 2rem;
+ gap: 3rem;
 }
 
 .event-image {
@@ -21,12 +21,8 @@
     text-transform: uppercase;
 }
 
-  /* @media (max-width: 800px) {
+  @media (max-width: 800px) {
     .events {
-      min-width: 90%;
+      gap: 1rem
     }
-
-      .event-image {
-        min-width: 90%;
-      }
-  }  */
+  } 

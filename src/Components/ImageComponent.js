@@ -1,18 +1,20 @@
 import '../css/ImageComponent.css';
 import { NewSliders } from '../Components/NewSliders.js';
 
-export const ImageComponent = ({ image, name, text, secondText, style, season }) => {
+export const ImageComponent = ({ image, name, text, season, homeTextBlock, homeTextColorStyle, eventStyle }) => {
 
     return (
-        // <div className='farm-container' key={id ? id : ''}>
-        <div className='farm-container'>
-            <NewSliders images={image} name={name} />
-            {/* <NewSliders id={id ? id : ''} images={image} name={name} /> */}
-            <div className={'text farm-text'} style={style}>
-                <p> {text}</p>
-                <p>{secondText}
-                    {season ? <span className='opening-time'>{season}</span> : ''}</p>
+        <div className={`container farm-container ${homeTextBlock || null}`}>
+            <NewSliders images={image} name={name} eventStyle={eventStyle || null} />
+            <div className={`text farm-text ${homeTextColorStyle || null}`}>
+                <h1>{name || null}</h1>
+                <p>{text}</p>
+                {season &&
+                    <p>We're waiting for you in:
+                        <span className='opening-time'> {season}
+                        </span>
+                    </p>}
             </div>
-        </div>
+        </div >
     );
 };

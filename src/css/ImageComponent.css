@@ -1,17 +1,13 @@
 .slider {
     position: relative;
-      min-width: 60%;
+      min-width: 65%;
 }
 
 .farm-container {
     display: flex;
     flex-direction: row;
     flex: 1;
-    height: 400px;
-    /* max-width: 1000px; */
-    /* margin: 10% auto; */
-    /* align-items: center; */
-    /* min-height: 500px; */
+    max-height: 400px;
 }
 
 .farm-image {
@@ -25,16 +21,10 @@
     transform: scale(1);
      }
 
-
-
 .farm-text {
     border-radius: 0 20px 20px 0;
     padding: 1rem;
-    margin: -0.25rem auto;
-}
-
-.farm-text p {
-    margin-bottom: 1.5rem;
+    margin: 0;
 }
 
 .arrow-btn {
@@ -61,19 +51,39 @@
 
   .opening-time {
     font-weight: 700;
-    padding: 5px;
-    border-radius: 5px;
+    margin-top: 1rem;
   }
+
+  .text h1 {
+    font-family: var(--ff-title);
+    font-size: var(--fs-bigger);
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-weight: 300;
+}
+
+.home-text-color {
+  background-color: #99b6c4;
+  color: white
+}
+
+.home-text-block {
+  margin: 3rem auto 0 auto
+}
+
+.event-style {
+  border-radius: 20px
+}
+
+
 
 @media (max-width: 800px) {
 
     .farm-container {
         display: flex;
         flex-direction: column;
-        flex: 1;
-        min-height: 70vh;
-        max-width: 75%;
-        margin: auto;
+        max-width: 300px;
+        max-height: 100%;
       }
 
       .farm-image {
@@ -82,5 +92,14 @@
 
       .farm-text {
         border-radius: 0 0 20px 20px;
+        margin: -0.25rem auto;
+      }
+
+      .home-text-block {
+        margin: 0 auto
+      }
+
+      .event-style {
+        border-radius: 20px
       }
   }

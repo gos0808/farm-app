@@ -1,9 +1,8 @@
 import { useState } from "react";
 import { faCircleArrowLeft, faCircleArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import '../css/EventDetails.css';
 
-export const NewSliders = ({ images, name }) => {
+export const NewSliders = ({ images, name, eventStyle }) => {
 
     const [index, setIndex] = useState(0);
 
@@ -30,8 +29,7 @@ export const NewSliders = ({ images, name }) => {
     return (
         <div className="slider">
 
-            {/* // <div className="slider" key={id}> */}
-            <img className='farm-image' src={images[index]} alt={name} />
+            <img className={`farm-image ${eventStyle || null}`} src={images[index]} alt={name ? name : 'img'} />
             {images.length > 1 && (
                 <>
                     <button className="arrow-btn arrow-btn-left" onClick={previos}>

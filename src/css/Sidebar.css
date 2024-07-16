@@ -1,47 +1,36 @@
-.filter {
-    /* border-radius: 20px; */
-    margin: 0 1rem;
-    min-width: 20rem;
-    /* border: 1px solid black; */
-}
-
 .category-filter {
     display: block;
-    flex-direction: column;
     text-align: left;
+    margin-bottom: 2rem;
 }
 
 .category-filter button {
-    /* background-color: transparent;
-    border: solid 1px var(--color-brown) ; */
-    margin: 0.3rem 0.3rem 0 0;
+    margin: 0 0.3rem 0.3rem 0;
 }
 
 .category-filter button:hover,
 .references button:hover,
 .dropdown:hover
 {
-    /* color: var(--color-brown); */
     filter: brightness(1.5);
 }
 
 .dropdown {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: left;
+    flex-direction: column;
     margin: 0.5rem 0;
 }
 
 .dropdown-label {
     font-size: var(--fs-base);
     font-family: var(--ff-title);
+    margin: 0;
+    text-align: left;
 }
 
 .select {
-min-width: 11.5rem;
-height: 2rem;
-margin: 0.5rem;
+max-width: 7rem;
+height: 1.7rem;
 border-radius: 20px;
 text-align: left;
 }
@@ -56,31 +45,44 @@ text-align: left;
     color: var(--color-grey-dark) !important;
 }
 
-
 .MuiOutlinedInput-notchedOutline {
 border:var(--color-brown) 1px solid !important;
 }
 
 .references {
-    /* padding: 20px; */
-    /* margin-: 2rem; */
-    /* background-image: url('https://images.unsplash.com/photo-1639690222445-595b0794bbd4?q=80&w=2187&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); */
-    /* background-size: cover; */
-    /* color: black; */
-    /* border-radius: 10px; */
     font-size: var(--fs-big);
     text-align: left;
+    margin: 2rem 0;
+    background-color: var(--color-blue-light);
+    padding: 0 0.5rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
 } 
 
 .references p {
-    margin: 0;
     font-family: var(--ff-title);
 }
 
 .references button {
-    /* background-color: #D6DEEE; */
-    margin: 1rem 0;
+    margin-bottom: 2rem;
 }
+
+@media (max-width: 800px) {
+    .category-filter {
+        margin-bottom: 0rem;
+    }
+
+    .references {
+        margin: 1rem 0;
+    
+    } 
+
+    .references button {
+        margin-bottom: 1rem;
+    }
+}
+
 
 
 

@@ -13,7 +13,7 @@ export const Products = () => {
     useEffect(() => {
         setTimeout(() => {
             setStateLoader(false);
-        }, 1000);
+        }, 250);
     }, []);
 
     if (stateLoader) {

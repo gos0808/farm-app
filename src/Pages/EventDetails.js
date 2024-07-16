@@ -16,10 +16,13 @@ export const DetailedPage = () => {
                 return (
                     <div key={id}>
                         <ImageComponent
+
                             image={image}
                             name={name}
                             text={description}
-                            secondText={'We\'re waiting for you in: '} season={season} />
+                            season={season}
+                            eventStyle={'event-style'}
+                        />
                     </div>
                 );
             })}

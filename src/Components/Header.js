@@ -16,7 +16,6 @@ export const Header = () => {
                     <NavLink to="/" className='link'>Our farm</NavLink>
                     <NavLink to="/products" className='link'>Products</NavLink>
                     <NavLink to="/about" className='link'>About us</NavLink>
-                    {/* <NavLink to="/details/:name" className='link'>Detailes</NavLink> */}
                 </div>
 
             </nav>

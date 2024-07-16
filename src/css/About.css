@@ -1,5 +1,6 @@
 .about-container {
     text-align: left;
+    margin: 0;
 }
 
 .about-info {
@@ -7,16 +8,8 @@
     padding: 1rem;
 }
 
-.about-info h1 {
-    font-family: var(--ff-title);
-    font-size: var(--fs-bigger);
-    text-transform: uppercase;
-    letter-spacing: 0.2rem;
-    font-weight: 300;
-}
-
 .iframe {
-    border-radius: 20px 0 0 20px;
+    border-radius: 20px;
 }
 
 @media (max-width: 800px) {
@@ -28,6 +21,5 @@
 
     .iframe {
         width: 100%;
-        border-radius: 20px;
     }
 }
