@@ -4,6 +4,7 @@ import { Home } from '../Pages/Home';
 import { About } from '../Pages/About';
 import farmIcon from '../Images/farm-icon.jpg';
 import { DetailedPage } from "../Pages/EventDetails";
+import { Contact } from "../Pages/Contact";
 
 export const Header = () => {
 
@@ -15,7 +16,8 @@ export const Header = () => {
                 <div className='link-container'>
                     <NavLink to="/" className='link'>Our farm</NavLink>
                     <NavLink to="/products" className='link'>Products</NavLink>
-                    <NavLink to="/about" className='link'>About us</NavLink>
+                    <NavLink to="/about" className='link'>About</NavLink>
+                    <NavLink to="/contact" className='link'>Contact</NavLink>
                 </div>
 
             </nav>
@@ -25,6 +27,7 @@ export const Header = () => {
                 <Route path='/products' element={<Products />} />
                 <Route path='/about' element={<About />} />
                 <Route path='/details/:name' element={<DetailedPage />} />
+                <Route path='/contact' element={<Contact />} />
             </Routes>
         </Router>
     );

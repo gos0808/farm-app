@@ -50,6 +50,7 @@ nav {
  flex-direction: column;
  justify-content: center;
  align-items: center;
+ white-space: nowrap;
 }
 
 nav .link-container {
