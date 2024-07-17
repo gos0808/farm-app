@@ -4,8 +4,12 @@ import { EventsData } from '../Data/EventsData.js';
 import { useNavigate } from 'react-router-dom';
 import '../css/App.css';
 import { ImageComponent } from "../Components/ImageComponent";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export const Home = () => {
+
+    AOS.init();
 
     const [events] = useState(EventsData);
 
@@ -17,14 +21,17 @@ export const Home = () => {
     };
 
     return (
-        <div className='home-container'>
+
+        <div
+            className='home-container' >
+
             <div className='events '>
                 {events.map((event) => {
                     const { id, name, image } = event;
                     return (
                         <div key={id}>
-                            <div className='image-container'>
-                                <img
+                            <div className='image-container '>
+                                <img data-aos="flip-left" data-aos-duration="1000" data-aos-delay="30" data-aos-once="true" data-aos-easing="ease-in-out"
                                     className={'image-container event-image'}
                                     src={image}
                                     name={name}
@@ -46,8 +53,6 @@ export const Home = () => {
                 homeTextColorStyle={'home-text-color'}
                 homeTextBlock={'home-text-block'}
             />
-
-
-        </div>
+        </div >
     );
 };

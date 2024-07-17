@@ -2,23 +2,24 @@ import { productsData } from "../Data/ProductsData";
 import '../css/Products.css';
 import '../css/App.css';
 import { Sidebar } from '../Components/Sidebar';
-import { useState, useEffect } from 'react';
-import LoaderPage from './Loader-page';
+import { useState } from 'react';
+// import { useState, useEffect } from 'react';
+// import LoaderPage from './Loader-page';
 
 export const Products = () => {
 
     const [food, setFood] = useState(productsData);
-    const [stateLoader, setStateLoader] = useState(true);
+    // const [stateLoader, setStateLoader] = useState(true);
 
-    useEffect(() => {
-        setTimeout(() => {
-            setStateLoader(false);
-        }, 250);
-    }, []);
+    // useEffect(() => {
+    //     setTimeout(() => {
+    //         setStateLoader(false);
+    //     }, 250);
+    // }, []);
 
-    if (stateLoader) {
-        return <LoaderPage />;
-    }
+    // if (stateLoader) {
+    //     return <LoaderPage />;
+    // }
 
     const categoryFilter = (filterParam) => {
         if (filterParam === 'All') {
@@ -53,7 +54,13 @@ export const Products = () => {
                         const { name, price, newPrice, weight, img, season } = element;
                         return (
                             <div className="product-card" key={index}>
-                                <div className={'image-container product-image'}>                            <img src={img} alt={name} /></div>
+                                <div className={'image-container product-image'}
+                                    data-aos="flip-left"
+                                    data-aos-duration="1000"
+                                    data-aos-delay="30"
+                                    data-aos-once="true"
+                                    data-aos-easing="ease-in-out"
+                                >                            <img src={img} alt={name} /></div>
                                 <h2>{name}</h2>
                                 <div className="price">
                                     <p className={newPrice ? "new-price" : 'original-price'}>{newPrice ? `$${newPrice}` : null}</p>

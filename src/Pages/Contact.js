@@ -1,7 +1,7 @@
 import { Form } from "../Components/Form";
 export const Contact = () => {
     return (
-        <div>
+        <div className='form-container'>
             <Form />
         </div>
     );

@@ -5,7 +5,7 @@ export const Form = () => {
     const [state, handleSubmit] = useForm('xqazanlv');
 
     if (state.succeeded) {
-        return <p>Thanks for your submission!</p>;
+        return <p className="success">Thank you for your submission!</p>;
     }
 
     return (
@@ -40,6 +40,8 @@ export const Form = () => {
             <button type="submit" disabled={state.submitting}>
                 Submit
             </button>
+
+
             <ValidationError className="formErrors" errors={state.errors} />
         </form>
     );
