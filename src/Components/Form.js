@@ -28,7 +28,7 @@ export const Form = () => {
                 errors={state.errors}
             />
 
-            <label for="message">Message</label>
+            <label htmlFor="message">Message</label>
             <textarea id="message" name="message" required></textarea>
             <ValidationError
                 prefix="Message"
