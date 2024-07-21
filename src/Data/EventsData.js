@@ -2,7 +2,7 @@ export const EventsData = [
     {
         id: 1,
         name: 'Flower Picking',
-        description: 'Join us for a delightful Flower Picking experience at Countryside Flower Farm! Wander through blooming fields, handpick your favorites, and create beautiful bouquets. Enjoy fresh air, local delicacies, and fun for all ages. Come for the flowers, stay for the experience!',
+        description: 'Join us for a delightful Flower Picking experience at Countryside Flower Farm! Wander through blooming fields, handpick your favorites, and create beautiful bouquets. Enjoy fresh air, local delicacies, and fun for all ages. Come for the flowers, stay for the experience.',
         season: 'May 1 - August 31',
         image: ['https://images.unsplash.com/photo-1521508567009-a6d821b3db22?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
             'https://images.unsplash.com/photo-1630525251175-ceb4ce4c2d51?q=80&w=2342&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
