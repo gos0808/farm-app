@@ -6,12 +6,12 @@ import { EventsData } from '../../Data/eventsData.js';
 import { useNavigate } from 'react-router-dom';
 import { ImageComponent } from "../../Components/ImageComponent/ImageComponent";
 
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+// import AOS from 'aos';
+// import 'aos/dist/aos.css';
 
 export const Home = () => {
 
-    AOS.init();
+    // AOS.init();
 
     const [events] = useState(EventsData);
 
