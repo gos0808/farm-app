@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useParams } from 'react-router-dom';
 
-import { EventsData } from '../../Data/eventsData.js';
+import { EventsData } from '../../Data/events.js';
 import { ImageComponent } from "../../Components/ImageComponent/ImageComponent";
 
 import '../../App.css';

@@ -1,7 +1,7 @@
 import './Products.css';
 import '../../App.css';
 
-import { productsData } from "../../Data/productsData";
+import { productsData } from "../../Data/products";
 import { Sidebar } from '../../Components/Sidebar/Sidebar';
 import { useState } from 'react';
 
