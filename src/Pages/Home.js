@@ -31,7 +31,8 @@ export const Home = () => {
                     return (
                         <div key={id}>
                             <div className='image-container '>
-                                <img data-aos="flip-left" data-aos-duration="1000" data-aos-delay="30" data-aos-once="true" data-aos-easing="ease-in-out"
+                                {/* <img data-aos="flip-left" data-aos-duration="1000" data-aos- data-aos-once="true" data-aos-easing="ease-in-out" */}
+                                <img
                                     className={'image-container event-image'}
                                     src={image}
                                     name={name}

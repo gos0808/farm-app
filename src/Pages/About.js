@@ -6,10 +6,10 @@ export const About = () => {
         <div className={"container about-container"}>
 
             <iframe
-                data-aos="flip-left"
-                data-aos-duration="1000"
-                // data-aos-delay="10"
-                data-aos-once="true"
+                // data-aos="flip-left"
+                // data-aos-duration="100"
+                // // data-aos-delay="10"
+                // data-aos-once="false"
                 // data-aos-easing="ease-in-out"
                 title='map'
                 className='iframe'
@@ -20,7 +20,7 @@ export const About = () => {
                 aria-hidden="false"
                 tabIndex="0"
                 disabledefaultui='true'
-                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d4662380.544713574!2d-112.61613193397227!3d54.650971854163636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTLCsDAxJzMxLjUiTiAxMDbCsDMyJzI1LjAiVw!5e0!3m2!1sen!2sca!4v1720557940975!5m2!1sen!2sca">
+                src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d9337003.83429877!2d-112.83585856250006!3d55.15629384356946!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTLCsDAxJzMxLjUiTiAxMDbCsDMyJzI1LjAiVw!5e0!3m2!1sen!2sca!4v1721547776819!5m2!1sen!2sca">
             </iframe>
 
 

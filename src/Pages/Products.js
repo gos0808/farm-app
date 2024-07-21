@@ -55,11 +55,10 @@ export const Products = () => {
                         return (
                             <div className="product-card" key={index}>
                                 <div className={'image-container product-image'}
-                                    data-aos="flip-left"
-                                    data-aos-duration="1000"
-                                    data-aos-delay="30"
-                                    data-aos-once="true"
-                                    data-aos-easing="ease-in-out"
+                                // data-aos="flip-left"
+                                // data-aos-duration="1000"
+                                // data-aos-once="true"
+                                // data-aos-easing="ease-in-out"
                                 >                            <img src={img} alt={name} /></div>
                                 <h2>{name}</h2>
                                 <div className="price">

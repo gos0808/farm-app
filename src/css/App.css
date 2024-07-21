@@ -1,7 +1,7 @@
 :root {
   --fs-smaller: 0.8rem;
   --fs-small: 0.9rem;
-  --fs-base:1rem;
+  --fs-base:1.1rem;
   --fs-big:1.2rem;
   --fs-bigger:1.5rem;
 
@@ -14,8 +14,6 @@
   --color-grey-light-200: #6c6767;
   --color-brown: rgb(142, 110, 110);
   --color-blue-light: #f0f4f6;
-
-
 }
 
 html {
@@ -23,9 +21,9 @@ html {
 }
 
 .App {
-  text-align: center;
-  min-height: 100%;
   display: flex;
+  text-align: center;
+  min-height: 100dvh;
   flex-direction: column;
   color: var(--color-grey-dark);
   max-width: 1000px;
