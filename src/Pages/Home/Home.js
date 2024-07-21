@@ -2,7 +2,7 @@ import './Home.css';
 import '../../App.css';
 
 import { useState } from 'react';
-import { EventsData } from '../../Data/eventsData.js';
+import { EventsData } from '../../Data/events.js';
 import { useNavigate } from 'react-router-dom';
 import { ImageComponent } from "../../Components/ImageComponent/ImageComponent";
 
