@@ -1,9 +1,10 @@
 import { useState } from 'react';
-import { EventsData } from '../Data/EventsData.js';
-import '../css/App.css';
 import { useParams } from 'react-router-dom';
-import { ImageComponent } from "../Components/ImageComponent";
 
+import { EventsData } from '../../Data/eventsData.js';
+import { ImageComponent } from "../../Components/ImageComponent/ImageComponent";
+
+import '../../App.css';
 
 export const DetailedPage = () => {
     const [events] = useState(EventsData);

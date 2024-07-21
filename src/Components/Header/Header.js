@@ -1,10 +1,12 @@
 import { BrowserRouter as Router, Routes, Route, NavLink } from "react-router-dom";
-import { Products } from '../Pages/Products';
-import { Home } from '../Pages/Home';
-import { About } from '../Pages/About';
-import farmIcon from '../Images/farm-icon.jpg';
-import { DetailedPage } from "../Pages/EventDetails";
-import { Contact } from "../Pages/Contact";
+
+import { Products } from '../../Pages/Products/Products';
+import { Home } from '../../Pages/Home/Home';
+import { About } from '../../Pages/About/About';
+import { DetailedPage } from "../../Pages/EventDetails/EventDetails";
+import { Contact } from "../../Pages/Contact/Contact";
+
+import farmIcon from '../../Images/farm-icon.jpg';
 
 export const Header = () => {
 

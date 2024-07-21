@@ -1,14 +1,17 @@
-import { productsData } from "../Data/ProductsData";
-import '../css/Products.css';
-import '../css/App.css';
-import { Sidebar } from '../Components/Sidebar';
+import './Products.css';
+import '../../App.css';
+
+import { productsData } from "../../Data/productsData";
+import { Sidebar } from '../../Components/Sidebar/Sidebar';
 import { useState } from 'react';
+
 // import { useState, useEffect } from 'react';
 // import LoaderPage from './Loader-page';
 
 export const Products = () => {
 
     const [food, setFood] = useState(productsData);
+
     // const [stateLoader, setStateLoader] = useState(true);
 
     // useEffect(() => {

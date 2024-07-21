@@ -1,5 +1,6 @@
 import { useForm, ValidationError } from "@formspree/react";
-import "../css/Form.css";
+
+import "./Form.css";
 
 export const Form = () => {
     const [state, handleSubmit] = useForm('xqazanlv');

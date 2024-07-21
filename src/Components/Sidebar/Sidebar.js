@@ -1,4 +1,4 @@
-import '../css/Sidebar.css';
+import './Sidebar.css';
 import { FormControl, Select, MenuItem } from '@mui/material';
 
 

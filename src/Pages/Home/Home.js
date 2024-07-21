@@ -1,9 +1,11 @@
-import '../css/Home.css';
+import './Home.css';
+import '../../App.css';
+
 import { useState } from 'react';
-import { EventsData } from '../Data/EventsData.js';
+import { EventsData } from '../../Data/eventsData.js';
 import { useNavigate } from 'react-router-dom';
-import '../css/App.css';
-import { ImageComponent } from "../Components/ImageComponent";
+import { ImageComponent } from "../../Components/ImageComponent/ImageComponent";
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 

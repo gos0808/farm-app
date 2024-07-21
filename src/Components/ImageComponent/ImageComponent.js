@@ -1,5 +1,5 @@
-import '../css/ImageComponent.css';
-import { NewSliders } from '../Components/NewSliders.js';
+import './ImageComponent.css';
+import { NewSliders } from '../NewSliders.js';
 
 export const ImageComponent = ({ image, name, text, season, homeTextBlock, homeTextColorStyle, eventStyle }) => {
 
