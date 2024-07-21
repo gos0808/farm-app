@@ -11,7 +11,7 @@ export const Sidebar = ({ categoryFilter, seasonFilter }) => {
     };
 
     return (
-        <div>
+        <div className='sidebar'>
             <div className='category-filter'>
                 <button onClick={() =>
                     categoryFilter('All')}>All products</button>

@@ -69,17 +69,28 @@ border:var(--color-brown) 1px solid !important;
 }
 
 @media (max-width: 800px) {
+
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+    }
+
     .category-filter {
         margin-bottom: 0rem;
+        order: 2
     }
 
     .references {
         margin: 1rem 0;
-    
+        order: 1;
     } 
 
     .references button {
         margin-bottom: 1rem;
+    }
+
+    .dropdown {
+        order: 3
     }
 }
 
