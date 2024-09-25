@@ -6,11 +6,6 @@ export const About = () => {
         <div className={"container about-container"}>
 
             <iframe
-                // data-aos="flip-left"
-                // data-aos-duration="100"
-                // // data-aos-delay="10"
-                // data-aos-once="false"
-                // data-aos-easing="ease-in-out"
                 title='map'
                 className='iframe'
                 width="600"

@@ -3,10 +3,9 @@ import { useParams } from 'react-router-dom';
 
 import { EventsData } from '../../Data/events.js';
 import { ImageComponent } from "../../Components/ImageComponent/ImageComponent";
-
 import '../../App.css';
 
-export const DetailedPage = () => {
+export const DetailedPage = ({ event }) => {
     const [events] = useState(EventsData);
     const { name } = useParams();
 
@@ -17,7 +16,6 @@ export const DetailedPage = () => {
                 return (
                     <div key={id}>
                         <ImageComponent
-
                             image={image}
                             name={name}
                             text={description}

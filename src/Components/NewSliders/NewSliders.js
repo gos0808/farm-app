@@ -29,8 +29,8 @@ export const NewSliders = ({ images, name, eventStyle }) => {
 
     return (
         <div className="slider">
+            <img className={`farm-image ${eventStyle || null}`} src={`../../images/${images[index]}.jpg`} alt={name || 'img'} loading="lazy" />
 
-            <img className={`farm-image ${eventStyle || null}`} src={images[index]} alt={name ? name : 'img'} />
             {images.length > 1 && (
                 <>
                     <button className="arrow-btn arrow-btn-left" onClick={previos}>

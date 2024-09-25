@@ -1,4 +1,5 @@
 import { useForm, ValidationError } from "@formspree/react";
+import SendConfirmation from "./SendConfirmation";
 
 import "./Form.css";
 
@@ -6,7 +7,12 @@ export const Form = () => {
     const [state, handleSubmit] = useForm('xqazanlv');
 
     if (state.succeeded) {
-        return <p className="success">Thank you for your submission!</p>;
+        return (
+            <SendConfirmation
+                title={'Contact us'}
+                text={'Thank you for your submission!'}
+            />
+        );
     }
 
     return (
